@@ -12,7 +12,7 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo base_url('inicio'); ?>"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#!">Opción</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo base_url('general'); ?>">Volver</a></li>
                             <li class="breadcrumb-item"><a href="#!"><?php echo $titulo?></a></li>
                         </ul>
                     </div>
@@ -47,9 +47,9 @@
                                     <input value="<?= $id; ?>" type="hidden" id="id" name="id" class="form-control">
                                      <input value="<?= $idQ; ?>" type="hidden" id="idQ" name="idQ" class="form-control">
                                         <div class="form-group row">
-                                            <label for="progress-t-nombre" class="col-sm-3 col-form-label">Respuesta</label>
+                                            <label for="progress-t-nombre" class="col-sm-3 col-form-label">Opción de Respuesta:</label>
                                                 <div class="col-sm-9">
-                                                    <input value="<?= $texto; ?>" type="text" id="option" name="option" class="form-control"  placeholder="Opción">
+                                                    <input value="<?= $texto; ?>" type="text" id="option" name="option" class="form-control"  placeholder="Ingrese una Opción">
                                                 </div>
                                         </div>
                                      </div>

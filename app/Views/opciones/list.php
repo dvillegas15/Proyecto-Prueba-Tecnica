@@ -12,7 +12,7 @@
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo base_url('inicio'); ?>"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#!">Listado</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo base_url('general'); ?>">Preguntas</a></li>
                             <li class="breadcrumb-item"><a href="#!">General</a></li>
                         </ul>
                     </div>
