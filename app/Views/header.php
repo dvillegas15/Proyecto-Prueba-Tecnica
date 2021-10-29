@@ -41,7 +41,7 @@
 							<ul class="pcoded-submenu">
 						   		 <li><a href='registrar'>Registrar</a></li>
                            		 <li><a href='general'>Listar</a></li>
-								 <li><a href='general'>Votar</a></li>
+								 <li><a href='votacion'>Votar</a></li>
 							</ul>
 						</li>
 					</ul>

@@ -1,4 +1,4 @@
-<!-- Front end General, se listan los clientes por medio de una tabla -->
+<!-- Front end General, se listan las preguntas por medio de una tabla -->
 <!-- [ Main Content ] start -->
 <div class="pcoded-main-container">
     <div class="pcoded-content">
@@ -44,8 +44,8 @@
                                     <tbody>
                                          <?php for ($i=0; $i < count($lista); $i++): ?> 
                                              <?php 
-                                                $texto = $lista[$i]["text"];//texto
-                                                $id = $lista[$i]['id'];//id
+                                                $texto = $lista[$i]["text"];
+                                                $id = $lista[$i]['id'];
                                             ?>
                                             <tr>
                                                 <td><?= $texto;?></td>

@@ -52,8 +52,8 @@
                                     <tbody>
                                         <?php for ($i=0; $i < count($lista); $i++): ?> 
                                             <?php 
-                                                 $texto = $lista[$i]["text"];//texto
-                                                 $id = $lista[$i]['id_opcion'];//id
+                                                 $texto = $lista[$i]["text"];
+                                                 $id = $lista[$i]['id_opcion'];
                                             ?>
                                             <tr>
                                              <td><?= $texto;?></td>

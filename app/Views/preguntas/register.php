@@ -8,7 +8,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="page-header-title">
-                            <h5 class="m-b-10">Registrar pregunta</h5>
+                            <h5 class="m-b-10">Registrar Pregunta</h5>
                         </div>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo base_url('inicio'); ?>"><i class="feather icon-home"></i></a></li>
@@ -20,7 +20,7 @@
         </div>
         <!-- [ Miga de Pan  ] end -->
 
-    <!-- Captura de variables cuando es editar -->
+    <!-- Captura de variables -->
         <?php 
             if(isset($pregunta)){
                 $cambioBoton=true;

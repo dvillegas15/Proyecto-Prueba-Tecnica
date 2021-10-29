@@ -39,6 +39,7 @@ $routes->post('eliminar','Pregunta::eliminar');
 $routes->post('editar','Pregunta::editar');
 $routes->post('eliminarOpcion','Opcion::eliminar');
 $routes->post('editarOpcion','Opcion::editar');
+$routes->get('votacion','Votacion::general');
 
 /**
  * --------------------------------------------------------------------

@@ -20,6 +20,7 @@
 <!-- js -->
     <script src="<?php echo base_url('assets/js/views/pregunta.js'); ?>" type="text/javascript"></script>
     <script src="<?php echo base_url('assets/js/views/opcion.js'); ?>" type="text/javascript"></script>
+    <script src="<?php echo base_url('assets/js/views/votacion.js'); ?>" type="text/javascript"></script>
 
      </body>
 
